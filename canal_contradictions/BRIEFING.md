@@ -84,3 +84,8 @@ Ver arquivo: ESTRATEGIA_CANAL.md
 
 ## Como iniciar uma nova sessão
 Dizer: "Lê o briefing em canal_contradictions/BRIEFING.md e continua a produção do canal francês"
+
+## Ajustes pendentes para o próximo vídeo
+- Remover ou reposicionar a barra de progresso vermelha do topo do vídeo
+- Sem barras permanentes em cima/baixo (já aplicado)
+- Lower thirds com fontes grandes (já aplicado: título 44-46px, subtítulo 26-28px)
