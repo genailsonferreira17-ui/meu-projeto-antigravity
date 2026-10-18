@@ -1,8 +1,8 @@
-# 🇫🇷 LES CONTRADICTIONS DE LA FRANCE
+# 🇫🇷 PARADOXE FRANCE
 ## Estratégia do Canal
 
 ### Conceito
-Canal documentário em francês que expõe as contradições da França: a distância entre a imagem oficial e a realidade vivida. Cada episódio confronta dois lados de um mesmo tema — o prestígio e a decadência, o discurso e a prática.
+Canal documentário em francês que expõe os paradoxos da França: a distância entre a imagem oficial e a realidade vivida. Cada episódio confronta dois lados de um mesmo tema — o prestígio e a decadência, o discurso e a prática.
 
 ### Tom e Estilo
 - **Narração editorial**: o narrador não apenas informa, ele comenta, questiona, provoca reflexão

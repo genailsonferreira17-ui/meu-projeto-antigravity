@@ -1,4 +1,4 @@
-# BRIEFING COMPLETO — Canal "Les Contradictions de la France"
+# BRIEFING COMPLETO — Canal "Paradoxe France"
 
 ## Público-alvo
 - Franceses (França metropolitana e ultramar)
@@ -31,7 +31,7 @@ Cada episódio confronta a imagem oficial/idealizada com a realidade vivida.
 5. **REFLEXÃO + CTA (18min-20min)**: comentário editorial do narrador + chamada para inscrição no canal
 
 ## CTA padrão (adaptar a cada episódio)
-- Convida a se inscrever para "descobrir as outras contradições da França"
+- Convida a se inscrever no "Paradoxe France" para "descobrir os outros paradoxos da França"
 - Pede para comentar a opinião
 - Sugere o próximo episódio relacionado
 
