@@ -41,15 +41,7 @@ def build_filters():
     W, H = 1920, 1080
     filters = []
 
-    # ── 1. DARK VIGNETTE on entire video for cinematic look ──
-    filters.append(
-        "drawbox=x=0:y=0:w=iw:h=120:color=black@0.6:t=fill:"
-        "enable='between(t,0,55)'"
-    )
-    filters.append(
-        "drawbox=x=0:y=980:w=iw:h=100:color=black@0.5:t=fill:"
-        "enable='between(t,0,55)'"
-    )
+    # (sem barras permanentes em cima/baixo — visual limpo)
 
     # ── 2. TITLE CARD: "PARIS" (0-3.5s) ──
     filters.append(
@@ -77,25 +69,25 @@ def build_filters():
 
     # ── 3. LOWER THIRD: Eiffelturm (3.5-8s) ──
     filters.append(
-        "drawbox=x=80:y=880:w=5:h=70:color=0xE63946:t=fill:"
+        "drawbox=x=80:y=850:w=6:h=100:color=0xE63946:t=fill:"
         "enable='between(t,3.8,7.8)'"
     )
     filters.append(
-        "drawbox=x=95:y=875:w=700:h=80:color=black@0.65:t=fill:"
+        "drawbox=x=96:y=845:w=800:h=110:color=black@0.65:t=fill:"
         "enable='between(t,3.8,7.8)'"
     )
     filters.append(
         f"drawtext=fontfile={FONT_BOLD}:text='{esc('DER EIFFELTURM')}':"
-        f"fontsize=32:fontcolor=white:"
-        f"x=110:y=882:"
+        f"fontsize=46:fontcolor=white:"
+        f"x=115:y=855:"
         f"alpha='{fade(3.8, 7.8)}':"
         f"enable='between(t,3.8,7.8)'"
     )
     filters.append(
         f"drawtext=fontfile={FONT_REG}:"
         f"text='{esc('Champs-Élysées · Louvre · Montmartre')}':"
-        f"fontsize=22:fontcolor=0xAAAAAA:"
-        f"x=110:y=920:"
+        f"fontsize=28:fontcolor=0xAAAAAA:"
+        f"x=115:y=910:"
         f"alpha='{fade(4.2, 7.8)}':"
         f"enable='between(t,4.0,7.8)'"
     )
@@ -126,14 +118,14 @@ def build_filters():
 
     # ── 5. TRANSITION TEXT: "Doch..." (14-19s) ──
     filters.append(
-        "drawbox=x=0:y=920:w=iw:h=80:color=black@0.6:t=fill:"
+        "drawbox=x=0:y=890:w=iw:h=100:color=black@0.6:t=fill:"
         "enable='between(t,14.5,19)'"
     )
     filters.append(
         f"drawtext=fontfile={FONT_REG}:"
         f"text='{esc('Doch abseits der Postkartenmotive...')}':"
-        f"fontsize=30:fontcolor=white:"
-        f"x=(w-text_w)/2:y=945:"
+        f"fontsize=40:fontcolor=white:"
+        f"x=(w-text_w)/2:y=915:"
         f"alpha='{fade(14.5, 19)}':"
         f"enable='between(t,14.5,19)'"
     )
@@ -153,25 +145,25 @@ def build_filters():
 
     # ── 7. LOWER THIRD: Ratten (26-31s) ──
     filters.append(
-        "drawbox=x=80:y=880:w=5:h=70:color=0xE63946:t=fill:"
+        "drawbox=x=80:y=850:w=6:h=100:color=0xE63946:t=fill:"
         "enable='between(t,26.5,30.5)'"
     )
     filters.append(
-        "drawbox=x=95:y=875:w=650:h=80:color=black@0.65:t=fill:"
+        "drawbox=x=96:y=845:w=750:h=110:color=black@0.65:t=fill:"
         "enable='between(t,26.5,30.5)'"
     )
     filters.append(
         f"drawtext=fontfile={FONT_BOLD}:text='{esc('RATTEN AUF DEN GEHWEGEN')}':"
-        f"fontsize=30:fontcolor=white:"
-        f"x=110:y=885:"
+        f"fontsize=44:fontcolor=white:"
+        f"x=115:y=855:"
         f"alpha='{fade(26.5, 30.5)}':"
         f"enable='between(t,26.5,30.5)'"
     )
     filters.append(
         f"drawtext=fontfile={FONT_REG}:"
         f"text='{esc('Mülleimer tagelang unberührt')}':"
-        f"fontsize=20:fontcolor=0xAAAAAA:"
-        f"x=110:y=920:"
+        f"fontsize=26:fontcolor=0xAAAAAA:"
+        f"x=115:y=910:"
         f"alpha='{fade(27, 30.5)}':"
         f"enable='between(t,26.8,30.5)'"
     )
